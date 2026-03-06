@@ -15,7 +15,7 @@ spec:
     path: helm/odoo
     helm:
       valueFiles:
-        - ../../environments/staging/values.yaml
+        - values-staging.yaml
 
   destination:
     server: https://kubernetes.default.svc
