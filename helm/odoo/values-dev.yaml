@@ -1,2 +1,16 @@
 replicaCount: 1
 environment: dev
+postgresql:
+  enabled: true
+  postgresqlDatabase: odoo
+  postgresqlUsername: odoo
+  postgresqlPassword: odoo123
+env:
+- name: HOST
+  value: postgresql
+- name: USER
+  value: odoo
+- name: PASSWORD
+  value: odoo123
+- name: DATABASE
+  value: odoo
